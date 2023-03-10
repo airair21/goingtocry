@@ -87,7 +87,7 @@ const albums = [
     "year_released": 2019,
     "genre": "Alternative",
     "listen_url": "https://spotify.link/GID7js4B3xb",
-    "cover_image_url": "https://www.discogs.com/release/13905829-Briston-Maroney-Indiana/image/SW1hZ2U6NDExODMxNTY="
+    "cover_image_url": "https://i.discogs.com/Sy88AZYjDBKt7BdEJPUzwZyyFLs0fXFQfZhFa5x9F8g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTA1/ODI5LTE1NjM3NjAy/NzktMTQyNy5qcGVn.jpeg"
   },
   {
     "added_by": "May Chen",
