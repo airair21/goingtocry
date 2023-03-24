@@ -1,0 +1,134 @@
+{
+  "albums": [
+    {
+      "added_by": "Stefan Bowerman",
+      "artist": "Spice Girls",
+      "title": "Spice",
+      "total_tracks": 10,
+      "year_released": 1996,
+      "genre": "Pop",
+      "listen_url": "https://open.spotify.com/album/3x2jF7blR6bFHtk4MccsyJ?si=Yi-pTEk9SpuHGbaO-11yYA",
+      "cover_image_url": "https://i.discogs.com/Ur7qxKXzNIG6FnbHVM4GnC2Si3JqJ0PVWeP6FubkJdI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5OTM1/NzUtMTI1NzM0MDY4/Mi5qcGVn.jpeg"
+    },
+    {
+      "added_by": "Keti",
+      "artist": "SZA",
+      "title": "SOS",
+      "total_tracks": 23,
+      "year_released": 2023,
+      "genre": "Pop",
+      "listen_url": "https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG?si=MZf2AWsVQw6J0UxqLJj7qA",
+      "cover_image_url": "https://i.discogs.com/QkXSl9mpvIjcpJOjg4f6p8V5diXm78dq_c5L7uEYssA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NzU3/NTc1LTE2NzM2NDEy/MDMtNzg3OC5qcGVn.jpeg"
+    },
+    {
+      "added_by": "Jax",
+      "artist": "Set It Off / Hatsune Miku",
+      "title": "Why Do I (with Hatsune Miku)",
+      "total_tracks": 1,
+      "year_released": 2022,
+      "genre": "Pop Punk",
+      "listen_url": "https://open.spotify.com/album/2HT2HYRf4LC7CZ4OcBHunz?si=YdQxCbY-S6WBSIZpMonLNQ",
+      "cover_image_url": "https://i.scdn.co/image/ab67616d0000b273300b57abda9f4ce18cd95927"
+    },
+    {
+      "added_by": "Ana Whelley",
+      "artist": "Imagine Dragons",
+      "title": "Evolve",
+      "total_tracks": 12,
+      "year_released": 2017,
+      "genre": "Pop",
+      "listen_url": "https://open.spotify.com/album/33pt9HBdGlAbRGBHQgsZsU?si=iLOP2w5mTGeTWVEvxdXjbg",
+      "cover_image_url": "https://i.discogs.com/x2xZD-2lv9GNfLVpws4yOvdc9-bSS4W66rnqtf2Rvz0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDY5/MDg3LTE1MDEyNjU1/NjYtNzAwMC5qcGVn.jpeg"
+    },
+    {
+      "added_by": "Not Eddy",
+      "artist": "Rick Astley",
+      "title": "Whenever You Need Somebody",
+      "total_tracks": 4,
+      "year_released": 1987,
+      "genre": "Pop",
+      "listen_url": "https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT?autoplay=true",
+      "cover_image_url": "https://i.discogs.com/pD0xIV7IwjcT51r870rHun-lw_2E0Tp-FurCy1QNsOE/rs:fill/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyMjky/NDctMTQxNDMyNDg0/MS04NzU3LmpwZWc.jpeg"
+    },
+    {
+      "added_by": "Min Kim",
+      "artist": "Weezer",
+      "title": "Pinkerton",
+      "total_tracks": 10,
+      "year_released": 1996,
+      "genre": "Alternative Rock",
+      "listen_url": "https://open.spotify.com/album/3jWhmYMAWw5NvHTTeiQtfl",
+      "cover_image_url": "https://i.discogs.com/MLDxIwU0zMIQOYvqQLvq2Ru56rFDNwYm6H7CU7mX_MI/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMjgz/My0xMTY0NTgwMzEy/LmpwZWc.jpeg"
+    },
+    {
+      "added_by": "Anna Brown",
+      "artist": "Fleetwood Mac",
+      "title": "Rumours",
+      "total_tracks": 11,
+      "year_released": 1977,
+      "genre": "Rock",
+      "listen_url": "https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB?si=FDEdnAhVTGCJSmWCRg-tMQ",
+      "cover_image_url": "https://i.discogs.com/0RwbFkhFsRb6qNlIqNCR2EjpmrsBOlb8NFwI431feKg/rs:fit/g:sm/q:90/h:576/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNTUy/ODM2LTE2NDQxNDk2/NDEtODM4OS5qcGVn.jpeg"
+    },
+    {
+      "added_by": "Emma Li",
+      "artist": "Black Pink",
+      "title": "Born pink",
+      "total_tracks": 8,
+      "year_released": 2022,
+      "genre": "Pop",
+      "listen_url": "https://open.spotify.com/album/7jaSNQUBJbvfbZHLNFrV7P?si=hDmnXFK0T0yXJBM6nq5bow",
+      "cover_image_url": "https://i.discogs.com/gwArLmiZdUgbsZ5mIGH1Yae0ladJvrR9gP8U7pMuFB0/rs:fill/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NTM0/NTI0LTE2NjMzNDc3/MjctNDg3Ny5qcGVn.jpeg"
+    },
+    {
+      "added_by": "Kirti",
+      "artist": "Briston Maroney",
+      "title": "Indiana",
+      "total_tracks": 4,
+      "year_released": 2019,
+      "genre": "Alternative",
+      "listen_url": "https://spotify.link/GID7js4B3xb",
+      "cover_image_url": "https://i.discogs.com/Sy88AZYjDBKt7BdEJPUzwZyyFLs0fXFQfZhFa5x9F8g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTA1/ODI5LTE1NjM3NjAy/NzktMTQyNy5qcGVn.jpeg"
+    },
+    {
+      "added_by": "May Chen",
+      "artist": "Men I Trust",
+      "title": "Untourable Album",
+      "total_tracks": 13,
+      "year_released": 2021,
+      "genre": "Alternative",
+      "listen_url": "https://open.spotify.com/album/7FkJxlcljM6Ix0pC2JSNOE?si=RpGzASWgSlSymu5cPzzk8w",
+      "cover_image_url": "https://i.discogs.com/yD98cyW4w3wi3ltuaEH23FBdZS8ewwvdcqB5vPDl1FQ/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwOTAw/Mzc3LTE2NDgxOTk2/NjYtNzU2Mi5qcGVn.jpeg"
+    },
+    {
+      "added_by": "Shuyi",
+      "artist": "One Direction",
+      "title": "Made in the A.M.",
+      "total_tracks": 17,
+      "year_released": 2015,
+      "genre": "Pop",
+      "listen_url": "https://open.spotify.com/album/1gMxiQQSg5zeu4htBosASY?si=V6gCR5QLRAaFgen4XNgRxg",
+      "cover_image_url": "https://i.discogs.com/KAqYkAl91Dw4a0wmp--3u0sFKqfXE65kjYokmQBGSXk/rs:fit/g:sm/q:90/h:534/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3NDc5/MTAtMTQ0Nzk1NzYw/Mi0xNTUyLmpwZWc.jpeg"
+    },
+    {
+      "added_by": "Aparna",
+      "artist": "Weezer",
+      "title": "Weezer",
+      "total_tracks": 10,
+      "year_released": 2001,
+      "genre": "Alt rock",
+      "listen_url": "https://open.spotify.com/album/2OBSz5Nlto0Q5CtYPzPY7c?si=ktdy5jTUQsObhHw10fZPSg",
+      "cover_image_url": "https://i.discogs.com/HlMGngIj7VCWdAuRFp4in-rllKKD9UpbEVs6_EcpoEQ/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2Mjgz/NDItMTY1Mjk5ODQz/NC0xOTg2LmpwZWc.jpeg"
+    },
+    {
+      "added_by": "Nico Mitchem",
+      "artist": "D. Savage",
+      "title": "D Phenoix",
+      "total_tracks": 8,
+      "year_released": 2018,
+      "genre": "rap",
+      "listen_url": "https://open.spotify.com/album/7tQTgLGf0WBLtbfWzS96IO?si=9yeQ_M5nRhuWzsKWJAC4gw",
+      "cover_image_url": "https://i1.sndcdn.com/artworks-000420296415-r2yvy1-t500x500.jpg"
+    }
+  ]
+}
