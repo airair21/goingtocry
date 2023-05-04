@@ -17,6 +17,7 @@ function renderAlbum(album, i) {
     </a>
     <ul>
       <li>Title: ${album.Station_Name}</li>
+      <li>Line: ${album.Line}</li>
       <li>Artist: ${album.Art_Title}</li>
       <li>Added By: ${album.Art_Material}</li>
       <li>

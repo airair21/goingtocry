@@ -11,7 +11,7 @@ function renderAlbumDetail(album) {
   
   // Create an image element to display the cover image of the album
   const img = document.createElement('img')
-        img.src = album.cover_image_url
+        img.src = album.img_url
 
   // Append it to the bottom of the page
   document.body.appendChild(img)
