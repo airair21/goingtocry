@@ -47,10 +47,11 @@ a {
   text-transform: uppercase;
 }
 
-#albums-list {
+/* #albums-list {
   position: relative;
   z-index: 1;
-  display: flex;
+  display: grid;
+  
   gap: 40px;
   margin-bottom: 100px;
 }
@@ -66,4 +67,29 @@ a {
 .album img {
   border-radius: 4px;
   margin-bottom: 20px;
+} */
+
+
+#albums-list {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+.album {
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(4px);
+  padding: 12px;
+}
+.album img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.album:hover {
+  background-color: #00ff57;
+  border: #00ff57;
 }
