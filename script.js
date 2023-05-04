@@ -24,10 +24,7 @@ function renderAlbum(album, i) {
     </a>
     <h2> ${album.Station_Name} </h2>
     <ul>
-      <li>Line: ${album.Line}</li>
-      <li>Date: ${album.Art_Date}</li>
-      <li>Artist: ${album.Art_Title}</li>
-      <li>Added By: ${album.Art_Material}</li>
+      <p> ${album.Art_Title}</p>
       <li>
         <a href="${album.Art_Image_Link}">
          Listen Here

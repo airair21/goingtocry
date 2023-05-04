@@ -19,13 +19,13 @@ body {
 
 h1 {
   font-size: 200px;
-  line-height: 0.95;
-  letter-spacing: -0.04em;
+  /* line-height: 0.95; */
+  /* letter-spacing: -0.04em; */
   text-align: center;
   position: sticky;
   top: 0;
-  margin: 0 0 1em;
-  padding-top: 1em;
+  /* margin: 0 0 1em;
+  padding-top: 1em; */
 }
 h2 {
   font-size: 66px;
@@ -33,10 +33,10 @@ h2 {
   margin: 0;
 }
 
-img {
+/* img {
   width: 100%;
   max-width: 100%;
-}
+} */
 
 ul {
   list-style: none;
@@ -88,6 +88,7 @@ a {
 }
 .album {
   border: 3px solid black;
+  border-top: 22px solid black;
   /* border-radius: 7px; */
   background-color: white;
   backdrop-filter: blur(4px);
@@ -119,4 +120,11 @@ a {
 
 .red {
   color: #ee352e;
+}
+
+.line {
+  width: 40%;
+  /* padding: 10%; */
+  padding-bottom:100px;
+  top: 0;
 }
