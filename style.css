@@ -8,11 +8,11 @@ body {
   line-height: 1.4;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  background-color: #111;
-  color: black;
+  background-color: white;
+  color: #111;
   margin: 0;
   padding: 0 30px;
-  font-family: 'Space Mono', monospace;
+  /* font-family: 'Space Mono', monospace; */
   text-rendering: geometricprecision;
   -webkit-font-smoothing: subpixel-antialiased;  
 }
@@ -43,7 +43,7 @@ ul {
 }
 
 a {
-  color: #00ff57;
+  color: #ee352e;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -99,6 +99,6 @@ a {
 
 .album:hover {
   background-color: #00ff57;
-  border: #00ff57;
+  border: #ee352e;
   width: 80%;
 }
