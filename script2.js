@@ -1131,14 +1131,14 @@ const hairs = [
   }
 
   // Only run on graveyard page
-  if (graveList) {
-    hairs.forEach(function(hair) {
-       if (hair.grave === 'yes') {
-        renderGraveyard(hair)
-       }
-    })
+  // if (graveList) {
+  //   hairs.forEach(function(hair) {
+  //      if (hair.grave === 'yes') {
+  //       renderGraveyard(hair)
+  //      }
+  //   })
 
-  }
+  // }
 
 
 
