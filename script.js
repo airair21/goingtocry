@@ -12,18 +12,18 @@ function renderAlbum(album, i) {
 
   // Create the inner HTML content
   const albumHTML = `
-    <a href="albumDetail.html?title=${album.title}">
-      <img src="${album.cover_image_url}">
+    <a href="albumDetail.html?title=${album.Station_Name}">
+      <img src="${album.img_url}">
     </a>
     <ul>
-      <li>Title: ${album.era_name}</li>
+      <li>Title: ${album.Station_Name}</li>
       <li>Artist: ${album.hair_length}</li>
       <li>Released: ${album.year_released}</li>
       <li>Tracks: ${album.month_day}</li>
       <li>Genre: ${album.genre}</li>
-      <li>Added By: ${album.added_by}</li>
+      <li>Added By: ${album.Art_Material}</li>
       <li>
-        <a href="${album.listen_url}">
+        <a href="${album.Art_Image_Link}">
          Listen Here
         </a>
       <li>
