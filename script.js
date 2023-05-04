@@ -16,10 +16,10 @@ function renderAlbum(album, i) {
       <img src="${album.cover_image_url}">
     </a>
     <ul>
-      <li>Title: ${album.title}</li>
-      <li>Artist: ${album.artist}</li>
+      <li>Title: ${album.era_name}</li>
+      <li>Artist: ${album.hair_length}</li>
       <li>Released: ${album.year_released}</li>
-      <li>Tracks: ${album.total_tracks}</li>
+      <li>Tracks: ${album.month_day}</li>
       <li>Genre: ${album.genre}</li>
       <li>Added By: ${album.added_by}</li>
       <li>
