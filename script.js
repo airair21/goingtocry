@@ -7,17 +7,25 @@ function renderAlbum(album, i) {
   albumElement.classList.add('album')
   albumElement.classList.add(`album-${i}`)
 
-  console.log(albumElement)
-  console.log(album.cover_image_url)
+  // const line = '2';
+
+  // console.log(albumElement)
+  // console.log(album.Line);
+  // console.log(album.cover_image_url)
+  // console.log(album.Line == 2);
+  // const albumFilter = albumFilter(album => album.includes('2'))
+  // console.log(albumFilter);
+  // console.log(${line})
 
   // Create the inner HTML content
   const albumHTML = `
     <a href="albumDetail.html?title=${album.Station_Name}">
       <img src="${album.img_url}">
     </a>
+    <h2> ${album.Station_Name} </h2>
     <ul>
-      <li>Title: ${album.Station_Name}</li>
       <li>Line: ${album.Line}</li>
+      <li>Date: ${album.Art_Date}</li>
       <li>Artist: ${album.Art_Title}</li>
       <li>Added By: ${album.Art_Material}</li>
       <li>
@@ -35,19 +43,30 @@ function renderAlbum(album, i) {
   albumsList.appendChild(albumElement)
 }
 
-// Start App!
-// albums.forEach(function(album) {
-//   // if (album.year_released < 2000) {
-//     renderAlbum(album)
-//   // }
-// })
 
 fetch('albums.json')
-    .then((response) => response.json())
-    .then((json) => {
-      json.albums.forEach(function(album, i) {
-        // if (album.year_released < 2000) {
-          renderAlbum(album, i)
-        // }
-      })
+    .then(response => response.json())
+    .then(data => {
+      const filteredAlbums = data.albums.filter(album => {
+        // Check if the Line property is a string before calling includes()
+        if (typeof album.Line === 'string') {
+          return album.Line.includes('2');
+        } else {
+          return false;
+        }
+      });
+      console.log(filteredAlbums);
+
+      filteredAlbums.forEach(album => {
+      if (album.Line) {
+        renderAlbum(album);
+      }
     });
+    })
+    
+
+
+// checkFilter = album.Line.filter(album => album.Line >= 2);
+// console.log(checkFilter);
+
+
