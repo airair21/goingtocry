@@ -8,11 +8,11 @@ body {
   line-height: 1.4;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  background-color: white;
-  color: #111;
+  background-color: #111;
+  color: black;
   margin: 0;
   padding: 0 30px;
-  /* font-family: 'Space Mono', monospace; */
+  font-family: 'Space Mono', monospace;
   text-rendering: geometricprecision;
   -webkit-font-smoothing: subpixel-antialiased;  
 }
@@ -46,10 +46,6 @@ a {
   color: #00ff57;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.two a{
-  color: #ee352e;
 }
 
 /* #albums-list {
@@ -103,6 +99,6 @@ a {
 
 .album:hover {
   background-color: #00ff57;
-  border: #ee352e;
+  border: #00ff57;
   width: 80%;
 }
