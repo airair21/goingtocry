@@ -17,10 +17,7 @@ function renderAlbum(album, i) {
     </a>
     <ul>
       <li>Title: ${album.Station_Name}</li>
-      <li>Artist: ${album.hair_length}</li>
-      <li>Released: ${album.year_released}</li>
-      <li>Tracks: ${album.month_day}</li>
-      <li>Genre: ${album.genre}</li>
+      <li>Artist: ${album.Art_Title}</li>
       <li>Added By: ${album.Art_Material}</li>
       <li>
         <a href="${album.Art_Image_Link}">
