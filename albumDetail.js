@@ -46,6 +46,65 @@ function renderAlbumDetail(album) {
   // albumsList.appendChild(albumElement) 
 }
 
+(function() { // Scoping function to avoid creating globals
+  // Loading
+  var savedAlbums = JSON.parse(localStorage.getItem("savedAlbums") || "[]");
+  console.log("# of saved albums: " + savedAlbums.length);
+  savedAlbums.forEach(function(album, index) {
+      console.log("[" + index + "]: Station Name: " + album.stationName + ", Art Title: " + album.artTitle);
+  });
+
+  // Modifying
+  const saveButton = document.getElementById('save-button');
+  saveButton.addEventListener('click', () => {
+    const stationName = document.querySelector('h1').innerText;
+    const artTitle = document.querySelector('div').innerText;
+
+    const album = {
+      stationName: stationName,
+      artTitle: artTitle
+    };
+
+    savedAlbums.push(album);
+    console.log(`Saved ${artTitle} at ${stationName} to local storage`);
+
+    // Saving
+    localStorage.setItem("savedAlbums", JSON.stringify(savedAlbums));
+  });
+})();
+
+function displaySavedAlbums() {
+  // Load saved albums from localStorage
+  const savedAlbums = JSON.parse(localStorage.getItem('savedAlbums')) || [];
+
+  // Select the container element where the saved albums will be displayed
+  const container = document.querySelector('#saved-albums-container');
+
+  // If there are no saved albums, display a message
+  if (savedAlbums.length === 0) {
+    container.innerHTML = '<p>No saved albums.</p>';
+    return;
+  }
+
+  // Generate HTML for each saved album
+  const albumHTML = savedAlbums.map(album => `
+    <div class="saved-album">
+      <h2>${album.stationName}</h2>
+      <p>${album.artTitle}</p>
+    </div>
+  `).join('');
+
+  // Add the generated HTML to the container element
+  container.innerHTML = albumHTML;
+}
+
+// Only run the function on the ticket.html page
+if (window.location.pathname === '/ticket.html') {
+  displaySavedAlbums();
+}
+
+
+
 fetch('albums.json')
     .then((response) => response.json())
     .then((json) => {
