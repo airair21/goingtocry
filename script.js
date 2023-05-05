@@ -21,8 +21,8 @@ function renderAlbum(album, i) {
   const albumHTML = `
     <a href="albumDetail.html?title=${album.Station_Name}">
       <img src="${album.img_url}">
+      <h2> ${album.Station_Name} </h2>
     </a>
-    <h2> ${album.Station_Name} </h2>
     <ul>
       <p> ${album.Art_Title}</p>
       <li>

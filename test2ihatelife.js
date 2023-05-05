@@ -244,7 +244,7 @@ Example.timescale = function() {
             var body = bodies[i];
 
             if (!body.isStatic && body.position.y >= 500) {
-                var forceMagnitude = 0.03 * body.mass;
+                var forceMagnitude = 0.042 * body.mass;
 
                 Body.applyForce(body, body.position, {
                     x: (forceMagnitude + Common.random() * forceMagnitude) * Common.choose([1, -1]), 

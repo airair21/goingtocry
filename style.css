@@ -48,9 +48,11 @@ ul {
 }
 
 a {
-  color: #ee352e;
+  /* color: #ee352e; */
+  color: black;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  text-decoration: none;
 }
 
 /* #albums-list {
@@ -154,4 +156,14 @@ a {
 }
 #menu_line img {
   width: 30%;
+}
+#card {
+  /* width: 44%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#mta {
+  width: 44%;
 }
