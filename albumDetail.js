@@ -46,32 +46,32 @@ function renderAlbumDetail(album) {
   // albumsList.appendChild(albumElement) 
 }
 
-(function() { // Scoping function to avoid creating globals
-  // Loading
-  var savedAlbums = JSON.parse(localStorage.getItem("savedAlbums") || "[]");
-  console.log("# of saved albums: " + savedAlbums.length);
-  savedAlbums.forEach(function(album, index) {
-      console.log("[" + index + "]: Station Name: " + album.stationName + ", Art Title: " + album.artTitle);
-  });
+// (function() { // Scoping function to avoid creating globals
+//   // Loading
+//   var savedAlbums = JSON.parse(localStorage.getItem("savedAlbums") || "[]");
+//   console.log("# of saved albums: " + savedAlbums.length);
+//   savedAlbums.forEach(function(album, index) {
+//       console.log("[" + index + "]: Station Name: " + album.stationName + ", Art Title: " + album.artTitle);
+//   });
 
-  // Modifying
-  const saveButton = document.getElementById('save-button');
-  saveButton.addEventListener('click', () => {
-    const stationName = document.querySelector('h1').innerText;
-    const artTitle = document.querySelector('div').innerText;
+//   // Modifying
+//   const saveButton = document.getElementById('save-button');
+//   saveButton.addEventListener('click', () => {
+//     const stationName = document.querySelector('h1').innerText;
+//     const artTitle = document.querySelector('div').innerText;
 
-    const album = {
-      stationName: stationName,
-      artTitle: artTitle
-    };
+//     const album = {
+//       stationName: stationName,
+//       artTitle: artTitle
+//     };
 
-    savedAlbums.push(album);
-    console.log(`Saved ${artTitle} at ${stationName} to local storage`);
+//     savedAlbums.push(album);
+//     console.log(`Saved ${artTitle} at ${stationName} to local storage`);
 
-    // Saving
-    localStorage.setItem("savedAlbums", JSON.stringify(savedAlbums));
-  });
-})();
+//     // Saving
+//     localStorage.setItem("savedAlbums", JSON.stringify(savedAlbums));
+//   });
+// })();
 
 function displaySavedAlbums() {
   // Load saved albums from localStorage
@@ -88,8 +88,8 @@ function displaySavedAlbums() {
 
   // Generate HTML for each saved album
   const albumHTML = savedAlbums.map(album => `
-    <div class="saved-album">
-      <h2>${album.stationName}</h2>
+    <div class="saved-album" id="saved-items-container">
+      <h3>${album.stationName}</h3>
       <p>${album.artTitle}</p>
     </div>
   `).join('');
