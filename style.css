@@ -352,7 +352,7 @@ button {
   height: 100%;
   position: absolute;
   top: 0;
-  background-color: black;
+  background-color: white;
   transition: transform 1s ease;
   transform: translateX(-100vw);
   /* animation: close-door 2s ease-out backwards; */
@@ -363,7 +363,7 @@ button {
   height: 100%;
   position: absolute;
   top: 0;
-  background-color: black;
+  background-color: white;
   transition: transform 1s ease;
   transform: translateX(100vw);
   /* animation: close-door 2s ease-out backwards; */
@@ -375,7 +375,7 @@ button {
   height: 100%;
   position: absolute;
   top: 0;
-  background-color: black;
+  background-color: white;
   transition: transform 1s ease;
   /* transform: translateX(-100vw); */
   /* animation: close-door 2s ease-out backwards; */
@@ -386,7 +386,7 @@ button {
   height: 100%;
   position: absolute;
   top: 0;
-  background-color: black;
+  background-color: white;
   transition: transform 1s ease;
   /* transform: translateX(100vw); */
   /* animation: close-door 2s ease-out backwards; */
