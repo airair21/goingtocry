@@ -138,3 +138,8 @@ if (window.location.pathname === '/ticket.html') {
 //       });
 //     });
 
+const clearStorageButton = document.getElementById('clear-storage-btn');
+clearStorageButton.addEventListener('click', () => {
+  localStorage.clear();
+  alert('Local storage cleared');
+});

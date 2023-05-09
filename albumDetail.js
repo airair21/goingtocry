@@ -11,7 +11,7 @@ function renderAlbumDetail(album) {
   // Set the title of the page to the title of the album
   document.querySelector('h1').innerText = album.Station_Name
   document.querySelector('h2').innerText = album.Art_Title
-  document.querySelector('h3').innerText = album.Lines
+  document.querySelector('h3').innerText = album.Line
   
   // Create an image element to display the cover image of the album
   // const img = document.createElement('img')
