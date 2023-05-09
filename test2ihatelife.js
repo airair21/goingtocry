@@ -187,7 +187,7 @@ Example.timescale = function() {
     
     var groundUp = Bodies.rectangle(
         0,
-        0 - matterContainer.clientHeight / 8,
+        0 - matterContainer.clientHeight / 5,
         27184,
         THICCNESS / 2,
         { isStatic: true,
@@ -198,7 +198,7 @@ Example.timescale = function() {
     );
     var ground = Bodies.rectangle(
         matterContainer.clientWidth / 2,
-        matterContainer.clientHeight + THICCNESS / 2,
+        matterContainer.clientHeight * 1.21,
         27184,
         THICCNESS,
         { isStatic: true,
@@ -208,7 +208,7 @@ Example.timescale = function() {
          }
     );
     let leftWall = Bodies.rectangle(
-        0 - THICCNESS / 2,
+        0- THICCNESS / 4.4,
         matterContainer.clientHeight / 2,
         THICCNESS / 2,
         matterContainer.clientHeight * 5,
@@ -219,8 +219,8 @@ Example.timescale = function() {
          }
     );
     let rightWall = Bodies.rectangle(
-        matterContainer.clientWidth + THICCNESS / 2,
-        matterContainer.clientHeight / 2,
+        matterContainer.clientWidth * 1.3,
+        matterContainer.clientHeight * 2,
         THICCNESS / 3,
         matterContainer.clientHeight * 5,
         { isStatic: true,

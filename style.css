@@ -148,13 +148,31 @@ a {
 #menu_line {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  align-content: center;
   width: 30%;
+  /* border: #111 3px solid; */
+  height: 100vh;
 }
 #menu_line img {
-  width: 30%;
+  width: 20%;
+  display: flex;
+  margin-left: 40%;
 }
+/* #menu_line .image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+} */
+.ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+
 
 
 .ticket {
@@ -206,5 +224,15 @@ a {
 }
 
 #station {
-  z-index: -1;
+  z-index: 1;
+}
+
+
+.displaylines {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.displaylines img {
+  width: 50%;
 }
