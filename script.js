@@ -20,7 +20,6 @@ function renderAlbum(album, i) {
   // Create the inner HTML content
   const albumHTML = `
     <a href="albumDetail.html?title=${album.Station_Name}">
-      <img src="${album.img_url}">
       <h2> ${album.Station_Name} </h2>
     </a>
     <ul>
