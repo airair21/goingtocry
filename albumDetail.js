@@ -12,6 +12,8 @@ function renderAlbumDetail(album) {
   document.querySelector('h1').innerText = album.Station_Name
   document.querySelector('h2').innerText = album.Art_Title
   document.querySelector('h3').innerText = album.Line
+  // document.querySelector('img').innerText = album.img_url
+
   
   // Create an image element to display the cover image of the album
   // const img = document.createElement('img')
@@ -31,11 +33,6 @@ function renderAlbumDetail(album) {
       <h2> ${album.Station_Name} </h2>
     <ul>
       <p> ${album.Art_Title}</p>
-      <li>
-        <a href="${album.Art_Image_Link}">
-         Listen Here
-        </a>
-      <li>
     </ul>
   `
 
@@ -44,34 +41,38 @@ function renderAlbumDetail(album) {
 
   // Add to the list #albums-list
   // albumsList.appendChild(albumElement) 
+
+  // Add to the list #albums-list
+  const albumsList = document.querySelector('#albums-list')
+  albumsList.appendChild(albumElement)
 }
 
-// (function() { // Scoping function to avoid creating globals
-//   // Loading
-//   var savedAlbums = JSON.parse(localStorage.getItem("savedAlbums") || "[]");
-//   console.log("# of saved albums: " + savedAlbums.length);
-//   savedAlbums.forEach(function(album, index) {
-//       console.log("[" + index + "]: Station Name: " + album.stationName + ", Art Title: " + album.artTitle);
-//   });
+(function() { // Scoping function to avoid creating globals
+  // Loading
+  var savedAlbums = JSON.parse(localStorage.getItem("savedAlbums") || "[]");
+  console.log("# of saved albums: " + savedAlbums.length);
+  savedAlbums.forEach(function(album, index) {
+      console.log("[" + index + "]: Station Name: " + album.stationName + ", Art Title: " + album.artTitle);
+  });
 
-//   // Modifying
-//   const saveButton = document.getElementById('save-button');
-//   saveButton.addEventListener('click', () => {
-//     const stationName = document.querySelector('h1').innerText;
-//     const artTitle = document.querySelector('div').innerText;
+  // Modifying
+  const saveButton = document.getElementById('save-button');
+  saveButton.addEventListener('click', () => {
+    const stationName = document.querySelector('h1').innerText;
+    const artTitle = document.querySelector('div').innerText;
 
-//     const album = {
-//       stationName: stationName,
-//       artTitle: artTitle
-//     };
+    const album = {
+      stationName: stationName,
+      artTitle: artTitle
+    };
 
-//     savedAlbums.push(album);
-//     console.log(`Saved ${artTitle} at ${stationName} to local storage`);
+    savedAlbums.push(album);
+    console.log(`Saved ${artTitle} at ${stationName} to local storage`);
 
-//     // Saving
-//     localStorage.setItem("savedAlbums", JSON.stringify(savedAlbums));
-//   });
-// })();
+    // Saving
+    localStorage.setItem("savedAlbums", JSON.stringify(savedAlbums));
+  });
+})();
 
 function displaySavedAlbums() {
   // Load saved albums from localStorage
@@ -138,3 +139,8 @@ fetch('albums.json')
       });
     });
 
+    const backButton = document.getElementById('back-button');
+    backButton.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+    

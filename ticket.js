@@ -138,8 +138,23 @@ if (window.location.pathname === '/ticket.html') {
 //       });
 //     });
 
+//clear storage
 const clearStorageButton = document.getElementById('clear-storage-btn');
 clearStorageButton.addEventListener('click', () => {
   localStorage.clear();
   alert('Local storage cleared');
+});
+
+// Attach a click event listener to the print button
+const printButton = document.getElementById('print-button');
+printButton.addEventListener('click', () => {
+  // Call the window.print() method to print the current screen
+  window.print();
+  const albumsList = document.getElementById('albums-list');
+  albumsList.style.animation = 'moveLeft 1s forwards';
+});
+
+const backButton = document.getElementById('back-button');
+backButton.addEventListener('click', () => {
+  window.location.href = 'index.html';
 });
