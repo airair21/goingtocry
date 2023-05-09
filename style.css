@@ -106,6 +106,7 @@ a {
 .album:hover {
   /* background-color: #ee352e; */
   border: 3px solid #ee352e;
+  border-top: 22px solid #ee352e;
   width: 80%;
   color: #ee352e;
   font-size: 24px;
@@ -223,16 +224,50 @@ a {
   /* width: 66%; */
 }
 
+
 #station {
-  z-index: 1;
+  /* z-index: 1; */
+  text-align: left;
+  border: 3px solid black;
+  border-top: 22px solid black;
+  /* border-radius: 7px; */
+  background-color: white;
+  backdrop-filter: blur(4px);
+  padding: 12px;
+  margin: 5%;
+  /* padding: 40%; */
+  transition: .5s;
+  width: 66%;
+  font-size: 60px;
+
+  transform: rotate(-90deg);
+  margin-right: 20%;
+  top: 20vh;
 }
 
 
 .displaylines {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  /* border: #eaa80a solid 3px; */
+  max-height: 100vh;
 }
 .displaylines img {
-  width: 50%;
+  width: 80%;
+  height: auto;
+  /* align-items: center;
+  justify-self: center;
+  justify-content: center; */
+  /* border: red solid 3px; */
+  max-height: 100vh;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* height: 100%; */
+  /* border: green solid 3px; */
 }

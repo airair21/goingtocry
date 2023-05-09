@@ -10,7 +10,7 @@ const albumTitleFromQueryString = decodeURI(window.location.search.replace('?tit
 function renderAlbumDetail(album) {
   // Set the title of the page to the title of the album
   document.querySelector('h1').innerText = album.Station_Name
-  document.querySelector('div').innerText = album.Art_Title
+  document.querySelector('h2').innerText = album.Art_Title
   
   // Create an image element to display the cover image of the album
   // const img = document.createElement('img')
@@ -21,7 +21,6 @@ function renderAlbumDetail(album) {
 
 
   const albumElement = document.createElement('div')
-
   // albumElement.classList.add('album')
   // albumElement.classList.add(`album-${i}`)
 
