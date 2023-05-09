@@ -385,16 +385,16 @@ Example.timescale()
 // });
 
 
-function runAnimation() {
+function runAnimationRed() {
     // Code to run the animation goes here
     // var element = document.querySelector('.door');
     //   element.classList.add('animate');
 
       const rectangle1 = document.getElementById("rectangle1");
-    //   rectangle1.style.backgroundColor = "ee352e";
+      rectangle1.style.backgroundColor = "#ee352e";
       rectangle1.style.transform = "translateX(-50vw)";
       const rectangle2 = document.getElementById("rectangle2");
-    //   rectangle2.style.backgroundColor = "ee352e";
+      rectangle2.style.backgroundColor = "#ee352e";
       rectangle2.style.transform = "translateX(50vw)";
       
       setTimeout(function() {
@@ -402,5 +402,195 @@ function runAnimation() {
         // element.classList.remove('animate');
         // Navigate to the new page
         window.location.href = 'red.html';
-      }, 4000); // Duration of animation in milliseconds
-  }
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationOrange() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#ff6319";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#ff6319";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'orange.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationYellow() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#fccc0a";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#fccc0a";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'yellow.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationLime() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#6cbe45";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#6cbe45";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'lime.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationGreen() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#00933c";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#00933c";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'green.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationTeal() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#00add0";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#00add0";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'teal.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationBlue() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#0039a6";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#0039a6";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'blue.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationPurple() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#b933ad";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#b933ad";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'purple.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationBrown() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#996633";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#996633";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'brown.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationLgray() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#a7a9ac";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#a7a9ac";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'lgray.html';
+      }, 2000); // Duration of animation in milliseconds
+}
+function runAnimationDgray() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+      rectangle1.style.backgroundColor = "#808183";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+      rectangle2.style.backgroundColor = "#808183";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'dgray.html';
+      }, 2000); // Duration of animation in milliseconds
+}
