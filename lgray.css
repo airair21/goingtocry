@@ -105,17 +105,17 @@ a {
 
 .album:hover {
   /* background-color: #ee352e; */
-  border: 3px solid #ee352e;
-  border-top: 22px solid #ee352e;
+  border: 3px solid #a7a9ac;
+  border-top: 22px solid #a7a9ac;
   width: 80%;
-  color: #ee352e;
+  color: #a7a9ac;
   font-size: 24px;
   transition: .5s;
 }
 .album:hover h2 {
   font-size: 88px;
   transition: .5s;
-  color: #ee352e;
+  color: #a7a9ac;
 }
 
 

@@ -41,7 +41,7 @@ fetch('albums.json')
       const filteredAlbums = data.albums.filter(album => {
         // Check if the Line property is a string before calling includes()
         if (typeof album.Line === 'string') {
-          return album.Line.includes('3');
+          return album.Line.includes('A');
         } else {
           return false;
         }

@@ -83,7 +83,7 @@ function displaySavedAlbums() {
 
   // If there are no saved albums, display a message
   if (savedAlbums.length === 0) {
-    container.innerHTML = '<p>No saved albums.</p>';
+    container.innerHTML = '<p>No saved stations.</p>';
     return;
   }
 
@@ -143,4 +143,10 @@ fetch('albums.json')
     backButton.addEventListener('click', () => {
       window.location.href = 'index.html';
     });
+
+    const ticketButton = document.getElementById('ticket-button');
+    ticketButton.addEventListener('click', () => {
+      window.location.href = 'ticket.html';
+    });
+
     

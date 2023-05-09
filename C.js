@@ -19,13 +19,13 @@ function renderAlbum(album, i) {
 
   // Create the inner HTML content
   const albumHTML = `
-    <a href="albumDetail.html?title=${album.Station_Name}">
-      <h2> ${album.Station_Name} </h2>
-    </a>
-    <ul>
-      <p> ${album.Art_Title}</p>
-    </ul>
-  `
+  <a href="albumDetail.html?title=${album.Station_Name}">
+    <h2> ${album.Station_Name} </h2>
+  </a>
+  <ul>
+    <p> ${album.Art_Title}</p>
+  </ul>
+`
 
   // Set the inner HTML content of the albumElement
   albumElement.innerHTML = albumHTML
@@ -41,7 +41,7 @@ fetch('albums.json')
       const filteredAlbums = data.albums.filter(album => {
         // Check if the Line property is a string before calling includes()
         if (typeof album.Line === 'string') {
-          return album.Line.includes('3');
+          return album.Line.includes('C');
         } else {
           return false;
         }

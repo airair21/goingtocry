@@ -24,11 +24,6 @@ function renderAlbum(album, i) {
     </a>
     <ul>
       <p> ${album.Art_Title}</p>
-      <li>
-        <a href="${album.Art_Image_Link}">
-         Listen Here
-        </a>
-      <li>
     </ul>
   `
 
