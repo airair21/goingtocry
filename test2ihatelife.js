@@ -353,3 +353,54 @@ Example.timescale()
 
 
 
+// const link = document.querySelector('a');
+// const door = document.querySelector('#door');
+// const ballLink = document.querySelector('.ball');
+
+// // Add a click event listener to the link
+// ballLink.addEventListener('click', (event) => {
+//   // Prevent the default link behavior of navigating to a new page
+// //   event.preventDefault();
+//   door.classList.add('closed');
+//   setTimeout(() => {
+//     window.location.href = link.href;
+//   }, 1000);
+  
+//   // Add your animation code here
+// });
+
+// // link.addEventListener('click', (event) => {
+  
+// // });
+
+
+// const ball = document.querySelector('.ball');
+// ball.addEventListener('click', function(e) {
+//   e.preventDefault();
+//   const door = document.querySelector('.door');
+//   door.classList.add('open');
+//   setTimeout(function() {
+//     window.location.href = ball.href;
+//   }, 1000); // Change delay time as desired
+// });
+
+
+function runAnimation() {
+    // Code to run the animation goes here
+    // var element = document.querySelector('.door');
+    //   element.classList.add('animate');
+
+      const rectangle1 = document.getElementById("rectangle1");
+    //   rectangle1.style.backgroundColor = "ee352e";
+      rectangle1.style.transform = "translateX(-50vw)";
+      const rectangle2 = document.getElementById("rectangle2");
+    //   rectangle2.style.backgroundColor = "ee352e";
+      rectangle2.style.transform = "translateX(50vw)";
+      
+      setTimeout(function() {
+        // Remove the 'animate' class to reset the animation
+        // element.classList.remove('animate');
+        // Navigate to the new page
+        window.location.href = 'red.html';
+      }, 4000); // Duration of animation in milliseconds
+  }
