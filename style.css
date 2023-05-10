@@ -432,3 +432,11 @@ button {
   transform-origin: top left;
   transform: translateX(-50%) rotate(45deg);
 } */
+
+
+
+.img {
+  transition:  5s; /* set duration of fade transition */
+  height: 100vh;
+  z-index: 100;
+}

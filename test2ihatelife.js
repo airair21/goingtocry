@@ -594,3 +594,11 @@ function runAnimationDgray() {
         window.location.href = 'dgray.html';
       }, 2000); // Duration of animation in milliseconds
 }
+
+
+function fadeImage(img) {
+    img.style.opacity = 1; // set opacity to 100% on load
+    setTimeout(function() {
+      img.style.opacity = 0; // set opacity to 0% after 2 seconds
+    }, 2000); // set duration of fade in milliseconds
+  }
